@@ -46,12 +46,11 @@ public class Lesson2
         // 90 - 92     A-
         // 87 - 89     B+
         // 83 - 86     B
-
-
-        Console.WriteLine("Sophia: " + sophiaScore + "A");
-        Console.WriteLine("Nicholas: " + nicolasScore + "B");
-        Console.WriteLine("Zahirah: " + zahirahScore + "B");
-        Console.WriteLine("Jeong: " + jeongScore + "A");
+        Console.WriteLine("Student\t\tScore\t\tGrade\n");
+        Console.WriteLine("Sophia:\t\t " + sophiaScore + "\t\tA");
+        Console.WriteLine("Nicholas:\t " + nicolasScore + "\t\tB");
+        Console.WriteLine("Zahirah:\t " + zahirahScore + "\t\tB");
+        Console.WriteLine("Jeong:\t\t " + jeongScore + "\t\tA");
 
 
     }
