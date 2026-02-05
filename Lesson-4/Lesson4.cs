@@ -22,13 +22,18 @@ public class Lesson4
         Console.WriteLine($"val_B: {val_B}");
 
         // reference tye (int)
-        int[] ref_A = new int[1];
-        ref_A[0] = 2;
-        int[] ref_B = ref_A;
-        ref_B[0] = 5;
+        // int[] ref_A = new int[1];
+        // ref_A[0] = 2;
+        // int[] ref_B = ref_A;
+        // ref_B[0] = 5;
 
-        Console.WriteLine("--Reference Types--");
-        Console.WriteLine($"ref_A[0]: {ref_A[0]}"); // 5
-        Console.WriteLine($"ref_B[0]: {ref_B[0]}"); // 5
+        // Console.WriteLine("--Reference Types--");
+        // Console.WriteLine($"ref_A[0]: {ref_A[0]}"); // 5
+        // Console.WriteLine($"ref_B[0]: {ref_B[0]}"); // 5
+
+        int first = 2;
+        string second = "4";
+        int result = first + second;
+        Console.WriteLine(result);
     }
 }

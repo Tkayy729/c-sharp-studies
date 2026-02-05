@@ -5,7 +5,7 @@ public class Lesson3
         Console.WriteLine("Lesson 3 is running...");
         Console.WriteLine("\n.............");
 
-        string studentName = "Sophia Johnson";
+        //string studentName = "Sophia Johnson";
         string course1Name = "English 101";
         string course2Name = "Algebra 101";
         string course3Name = "Biology 101";
